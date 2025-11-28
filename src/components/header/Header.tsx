@@ -1,7 +1,9 @@
+import "./Header.css";
+
 const Header = () => {
   return (
     <header>
-      <h1>Welcome to My Website</h1>
+      <h1>Zürich Zoo</h1>
     </header>
   );
 }
