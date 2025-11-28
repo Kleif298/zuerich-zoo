@@ -3,6 +3,8 @@
   gap: 2rem;
   margin-top: 2rem;
   padding: 1rem;
+  box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .post-form {
@@ -42,6 +44,10 @@
 }
 
 .post-list {
+  background: #f7f7f7;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #535252;
   flex: 1;
 }
 
