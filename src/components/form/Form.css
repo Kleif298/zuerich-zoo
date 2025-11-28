@@ -7,7 +7,7 @@ label {
 form {
     width: fit-content;
     height: fit-content;
-    background-color: antiquewhite  ;
+    background-color: #e8f4f7;  ;
     border: 2px solid #000;
     border-radius: 5px;
     padding: 20px;
@@ -23,4 +23,16 @@ p {
     border: 2px solid #000;
     padding: 10px;
     border-radius: 5px;
+}
+
+button {
+    width: auto;
+    height: fit-content;
+    background-color: #496c74;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }

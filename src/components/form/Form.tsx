@@ -8,7 +8,9 @@ export default function Form() {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     setSubmittedName(name);
     setName("");
-    event.preventDefault();
+    event.preventDefault(); // Remove standard behavior to prevent page reload
+
+
     //alert(`The name you entered was: ${name}`);
     console.log(name);
   }
