@@ -18,7 +18,7 @@ export default function Form() {
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        Enter your name:
+        Enter the title:
         <input
           type="text"
           value={name}
@@ -26,6 +26,11 @@ export default function Form() {
         />
       </label>
 
+      <select>
+        <option value="show-email">E-Mail-Adresse anzeigen</option>
+        <option value="show-nickname">Nickname anzeigen</option>
+        <option value="null">Keine anzeigen</option>
+      </select>
       <button type="submit">Submit</button>
       {submittedName ? <p>Hello, {submittedName}</p> : null}
     </form>
