@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function MyForm() {
+export default function Form() {
   const [name, setName] = useState("")
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
@@ -20,6 +20,8 @@ export default function MyForm() {
       </label>
 
       <input type="submit" />
+
+      <p>{name}</p>
     </form>
   )
 }
