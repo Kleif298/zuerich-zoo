@@ -3,4 +3,11 @@ header {
     height: 60px;
     background-color: #487692;
     color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
 }
