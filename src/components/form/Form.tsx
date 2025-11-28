@@ -3,10 +3,14 @@ import "./Form.css"
 
 export default function Form() {
   const [name, setName] = useState("")
+  const [submittedName, setSubmittedName] = useState("")
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault()
-    alert(`The name you entered was: ${name}`)
+    setSubmittedName(name);
+    setName("");
+    event.preventDefault();
+    //alert(`The name you entered was: ${name}`);
+    console.log(name);
   }
 
   return (
@@ -21,7 +25,7 @@ export default function Form() {
       </label>
 
       <button type="submit">Submit</button>
-      {name ? <p>Hello, {name}</p> : null}
+      {submittedName ? <p>Hello, {submittedName}</p> : null}
     </form>
   )
 }
