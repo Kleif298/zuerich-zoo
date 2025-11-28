@@ -1,6 +1,6 @@
 import './App.css'
 import Header from './components/header/Header';
-import MyForm from './components/form/Form.tsx';
+import Form from './components/form/Form.tsx';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Header />
-      <MyForm />
+      <Form />
     </>
   )
 }
