@@ -21,7 +21,7 @@ export default function PostForm() {
   return (
     <div className="post-container">
       <form className="post-form" onSubmit={handleSubmit}>
-        <h2>Neuer Post</h2>
+        <h2>Neuer Post erstellen</h2>
 
         <label>Titel:</label>
         <input

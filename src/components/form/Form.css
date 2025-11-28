@@ -3,7 +3,6 @@
   gap: 2rem;
   margin-top: 2rem;
   padding: 1rem;
-  box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 
@@ -12,10 +11,10 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  background: #f7f7f7;
+  background: #f7f7f4;
   padding: 1.5rem;
   border-radius: 10px;
-  border: 1px solid #535252;
+  box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.1);
 }
 
 .post-form input,
@@ -44,11 +43,11 @@
 }
 
 .post-list {
-  background: #f7f7f7;
+  background: #f7f7f4;
   padding: 1.5rem;
   border-radius: 10px;
-  border: 1px solid #535252;
   flex: 1;
+  box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.1);
 }
 
 .post-item {
