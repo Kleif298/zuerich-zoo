@@ -1,4 +1,5 @@
 import { useState } from "react"
+import "./Form.css"
 
 export default function Form() {
   const [name, setName] = useState("")
@@ -19,9 +20,8 @@ export default function Form() {
         />
       </label>
 
-      <input type="submit" />
-
-      <p>{name}</p>
+      <button type="submit">Submit</button>
+      {name ? <p>Hello, {name}</p> : null}
     </form>
   )
 }
